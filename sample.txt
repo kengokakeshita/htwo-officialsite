@@ -1,2 +1,298 @@
-aiueo
-kakikukeko
+Last login: Tue Oct 16 15:46:09 on ttys000
+You have mail.
+xearts@MacBookAir [15時47分19秒] [~]
+-> %  cd PhpStormProjects/htwo-officialsite
+xearts@MacBookAir [15時49分55秒] [~/PhpStormProjects/htwo-officialsite] [test-file *]
+-> % git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+	.idea/workspace.xml
+Please, commit your changes or stash them before you can switch branches.
+Aborting
+xearts@MacBookAir [15時50分11秒] [~/PhpStormProjects/htwo-officialsite] [test-file *]
+-> % git status
+On branch test-file
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   .idea/workspace.xml
+
+no changes added to commit (use "git add" and/or "git commit -a")
+xearts@MacBookAir [15時50分28秒] [~/PhpStormProjects/htwo-officialsite] [test-file *]
+-> % got checkout .idea/workspace.xml
+zsh: command not found: got
+mple.txtを追加
+xearts@MacBookAir [15時50分46秒] [~/PhpStormProjects/htwo-officialsite] [test-file *]
+-> % git checkout .idea/workspace.xml
+xearts@MacBookAir [15時51分08秒] [~/PhpStormProjects/htwo-officialsite] [test-file]
+-> % git checkout master
+Switched to branch 'master'
+xearts@MacBookAir [15時51分21秒] [~/PhpStormProjects/htwo-officialsite] [master]
+-> % ls
+README.md
+xearts@MacBookAir [15時51分26秒] [~/PhpStormProjects/htwo-officialsite] [master]
+-> % ls
+README.md
+xearts@MacBookAir [15時55分52秒] [~/PhpStormProjects/htwo-officialsite] [master]
+-> % touch sample.txt
+xearts@MacBookAir [15時59分18秒] [~/PhpStormProjects/htwo-officialsite] [master *]
+-> % open sample.text
+The file /Users/xearts/PhpStormProjects/htwo-officialsite/sample.text does not exist.
+xearts@MacBookAir [15時59分50秒] [~/PhpStormProjects/htwo-officialsite] [master *]
+-> % open sample.txt
+xearts@MacBookAir [16時00分00秒] [~/PhpStormProjects/htwo-officialsite] [master *]
+-> % git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	sample.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+xearts@MacBookAir [16時05分07秒] [~/PhpStormProjects/htwo-officialsite] [master *]
+-> % git add sample.txt
+xearts@MacBookAir [16時06分03秒] [~/PhpStormProjects/htwo-officialsite] [master *]
+-> % git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   sample.txt
+
+xearts@MacBookAir [16時06分09秒] [~/PhpStormProjects/htwo-officialsite] [master *]
+-> % git commit
+[master 3aea2cb] mple.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 sample.txt
+xearts@MacBookAir [16時09分35秒] [~/PhpStormProjects/htwo-officialsite] [master]
+-> % ls
+README.md  sample.txt
+xearts@MacBookAir [16時09分53秒] [~/PhpStormProjects/htwo-officialsite] [master]
+-> % git branch "exmple"
+xearts@MacBookAir [16時13分46秒] [~/PhpStormProjects/htwo-officialsite] [master]
+-> % git checkout exmple
+Switched to branch 'exmple'
+xearts@MacBookAir [16時15分12秒] [~/PhpStormProjects/htwo-officialsite] [exmple]
+-> % ls
+README.md  sample.txt
+xearts@MacBookAir [16時15分27秒] [~/PhpStormProjects/htwo-officialsite] [exmple]
+-> % open sample.txt
+xearts@MacBookAir [16時15分57秒] [~/PhpStormProjects/htwo-officialsite] [exmple]
+練習問題　作成者けんご
+-> %
+xearts@MacBookAir [16時16分30秒] [~/PhpStormProjects/htwo-officialsite] [exmple]
+-> % git status
+On branch exmple
+nothing to commit, working directory clean
+xearts@MacBookAir [16時16分36秒] [~/PhpStormProjects/htwo-officialsite] [exmple]
+-> % git status
+On branch exmple
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   sample.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+xearts@MacBookAir [16時17分03秒] [~/PhpStormProjects/htwo-officialsite] [exmple *]
+-> % git checkout sample.txt
+xearts@MacBookAir [16時18分58秒] [~/PhpStormProjects/htwo-officialsite] [exmple]
+-> % git status
+On branch exmple
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   sample.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+xearts@MacBookAir [16時21分07秒] [~/PhpStormProjects/htwo-officialsite] [exmple *]
+-> % git add sample.txt
+xearts@MacBookAir [16時22分17秒] [~/PhpStormProjects/htwo-officialsite] [exmple *]
+-> % git status
+On branch exmple
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   sample.txt
+
+xearts@MacBookAir [16時22分37秒] [~/PhpStormProjects/htwo-officialsite] [exmple *]
+-> % git commit
+[exmple 9979856] 練習問題　作成者けんご
+ 1 file changed, 1 insertion(+)
+xearts@MacBookAir [16時24分39秒] [~/PhpStormProjects/htwo-officialsite] [exmple]
+-> % git checkout master
+Switched to branch 'master'
+xearts@MacBookAir [16時26分26秒] [~/PhpStormProjects/htwo-officialsite] [master]
+-> % git checkout exmple
+Switched to branch 'exmple'
+xearts@MacBookAir [16時27分45秒] [~/PhpStormProjects/htwo-officialsite] [exmple]
+-> % git merge
+fatal: No remote for the current branch.
+xearts@MacBookAir [16時28分08秒] [~/PhpStormProjects/htwo-officialsite] [exmple]
+-> % git merge master
+Already up-to-date.
+xearts@MacBookAir [16時28分43秒] [~/PhpStormProjects/htwo-officialsite] [exmple]
+-> % git checkout master
+Switched to branch 'master'
+xearts@MacBookAir [16時29分07秒] [~/PhpStormProjects/htwo-officialsite] [master]
+-> % git merge exmple
+Updating 3aea2cb..9979856
+Fast-forward
+ sample.txt | 1 +
+ 1 file changed, 1 insertion(+)
+xearts@MacBookAir [16時29分41秒] [~/PhpStormProjects/htwo-officialsite] [master]
+-> % git branch
+  exmple
+* master
+  test-file
+xearts@MacBookAir [16時30分01秒] [~/PhpStormProjects/htwo-officialsite] [master]
+-> % git checkout exmple
+Switched to branch 'exmple'
+xearts@MacBookAir [16時33分05秒] [~/PhpStormProjects/htwo-officialsite] [exmple]
+-> % git push origin exmple
+Counting objects: 6, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 601 bytes | 0 bytes/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'exmple' on GitHub by visiting:
+remote:      https://github.com/kengokakeshita/htwo-officialsite/pull/new/exmple
+remote:
+To git@github-kake:kengokakeshita/htwo-officialsite.git
+ * [new branch]      exmple -> exmple
+xearts@MacBookAir [16時34分12秒] [~/PhpStormProjects/htwo-officialsite] [exmple]
+-> % git chekout master
+git: 'chekout' is not a git command. See 'git --help'.
+
+Did you mean this?
+	checkout
+xearts@MacBookAir [16時52分28秒] [~/PhpStormProjects/htwo-officialsite] [exmple]
+-> % git chekout master
+git: 'chekout' is not a git command. See 'git --help'.
+
+Did you mean this?
+	checkout
+xearts@MacBookAir [16時52分38秒] [~/PhpStormProjects/htwo-officialsite] [exmple]
+-> % git checkout master
+Switched to branch 'master'
+xearts@MacBookAir [16時52分49秒] [~/PhpStormProjects/htwo-officialsite] [master]
+-> % git pull origin master
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From github-kake:kengokakeshita/htwo-officialsite
+ * branch            master     -> FETCH_HEAD
+   2c62fa6..2058389  master     -> origin/master
+Updating 9979856..2058389
+Fast-forward
+ .idea/copyright/profiles_settings.xml |   3 ++
+ .idea/htwo-officialsite.iml           |   8 ++++
+ .idea/misc.xml                        |  13 ++++++
+ .idea/modules.xml                     |   8 ++++
+ .idea/vcs.xml                         |   6 +++
+ .idea/workspace.xml                   | 186 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ README.md                             |   3 +-
+ 7 files changed, 226 insertions(+), 1 deletion(-)
+ create mode 100644 .idea/copyright/profiles_settings.xml
+ create mode 100644 .idea/htwo-officialsite.iml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/vcs.xml
+ create mode 100644 .idea/workspace.xml
+xearts@MacBookAir [16時53分48秒] [~/PhpStormProjects/htwo-officialsite] [master]
+-> % git log
+xearts@MacBookAir [16時56分05秒] [~/PhpStormProjects/htwo-officialsite] [master]
+-> % git log
+xearts@MacBookAir [16時58分33秒] [~/PhpStormProjects/htwo-officialsite] [master]
+-> % fit branch eimple
+zsh: command not found: fit
+xearts@MacBookAir [17時01分04秒] [~/PhpStormProjects/htwo-officialsite] [master]
+-> % git branch exmple
+fatal: A branch named 'exmple' already exists.
+xearts@MacBookAir [17時01分27秒] [~/PhpStormProjects/htwo-officialsite] [master]
+-> % git chechout exmple
+git: 'chechout' is not a git command. See 'git --help'.
+追加問題　作成者けんご
+
+Did you mean this?
+	checkout
+xearts@MacBookAir [17時03分28秒] [~/PhpStormProjects/htwo-officialsite] [master]
+-> % git checkout exmple
+Switched to branch 'exmple'
+xearts@MacBookAir [17時03分59秒] [~/PhpStormProjects/htwo-officialsite] [exmple]
+-> % ls
+README.md  sample.txt
+xearts@MacBookAir [17時05分00秒] [~/PhpStormProjects/htwo-officialsite] [exmple]
+-> % opwn sample.txt
+zsh: command not found: opwn
+xearts@MacBookAir [17時05分13秒] [~/PhpStormProjects/htwo-officialsite] [exmple]
+-> % open sample.txt
+xearts@MacBookAir [17時05分35秒] [~/PhpStormProjects/htwo-officialsite] [exmple]
+-> % git states
+git: 'states' is not a git command. See 'git --help'.
+
+Did you mean this?
+	status
+xearts@MacBookAir [17時06分13秒] [~/PhpStormProjects/htwo-officialsite] [exmple *]
+-> % git commit
+On branch exmple
+Changes not staged for commit:
+	modified:   sample.txt
+
+no changes added to commit
+xearts@MacBookAir [17時06分53秒] [~/PhpStormProjects/htwo-officialsite] [exmple *]
+-> % git add sample.txt
+xearts@MacBookAir [17時07分37秒] [~/PhpStormProjects/htwo-officialsite] [exmple *]
+-> % git status
+On branch exmple
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   sample.txt
+
+xearts@MacBookAir [17時08分18秒] [~/PhpStormProjects/htwo-officialsite] [exmple *]
+-> % git commit
+[exmple c871126] 追加問題　作成者けんご
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+xearts@MacBookAir [17時10分36秒] [~/PhpStormProjects/htwo-officialsite] [exmple]
+-> % git status
+On branch exmple
+nothing to commit, working directory clean
+xearts@MacBookAir [17時12分01秒] [~/PhpStormProjects/htwo-officialsite] [exmple]
+-> % git push origin exmple
+Counting objects: 3, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 342 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To git@github-kake:kengokakeshita/htwo-officialsite.git
+   9979856..c871126  exmple -> exmple
+xearts@MacBookAir [17時14分26秒] [~/PhpStormProjects/htwo-officialsite] [exmple]
+-> % git checkout master
+Switched to branch 'master'
+xearts@MacBookAir [17時20分02秒] [~/PhpStormProjects/htwo-officialsite] [master]
+-> % git pull origin master
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (2/2), done.
+From github-kake:kengokakeshita/htwo-officialsite
+ * branch            master     -> FETCH_HEAD
+   2058389..dfb78ee  master     -> origin/master
+Updating 2058389..dfb78ee
+Fast-forward
+ sample.txt | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+xearts@MacBookAir [17時21分45秒] [~/PhpStormProjects/htwo-officialsite] [master]
+-> % ls
+README.md  sample.txt
+xearts@MacBookAir [17時21分57秒] [~/PhpStormProjects/htwo-officialsite] [master]
+-> % open samole.txt
+The file /Users/xearts/PhpStormProjects/htwo-officialsite/samole.txt does not exist.
+xearts@MacBookAir [17時22分07秒] [~/PhpStormProjects/htwo-officialsite] [master]
+-> %
